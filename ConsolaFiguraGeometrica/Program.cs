@@ -12,6 +12,8 @@ namespace ConsolaFiguraGeometrica
     {
         static void Main(string[] args)
         {
+            var triangulo = new Triangulo(5, 5);
+            mostrarInformacion(triangulo);
             var cuadrado = new Cuadrado(5);
             mostrarInformacion(cuadrado);
             Console.ReadKey();
